@@ -1,0 +1,20 @@
+.Input{
+    outline: none;
+    border:1px solid #A3192C;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #21242E;;
+    width: 40%;
+    padding: 0.5rem;
+    border-radius:10px;
+    margin-right: 1vh;
+    margin-bottom: 2vh;
+}
+.search-btn{
+    border: none;
+    background-color: #A3192C;
+    color: white;
+    padding: 0.8rem;
+    font-weight: bold;
+    border-radius: 10px;
+}

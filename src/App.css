@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  background-color: #21242E;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  padding: 2vh;
+}
+.loading{
+  color: white;
+  font-size: 3rem;
+}
+
+
+
