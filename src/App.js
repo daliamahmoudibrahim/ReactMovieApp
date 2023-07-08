@@ -62,9 +62,9 @@ function App() {
   return (
     <div className="App">
       <SearchForm onGetMovieName={GetMovieName} />
-      {!Loading && Movies.length > 0 && <MovieList movies={Movies} />}
+      {!Loading && <MovieList movies={Movies} />}
       {Loading && <p className="loading">Loading...</p>}
-      {!Loading && Movies.length === 0 && (
+      {!Loading && Movies.length == 0 && (
         <p className="loading">There are no movies with this name</p>
       )}
     </div>
