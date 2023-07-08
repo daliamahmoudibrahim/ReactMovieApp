@@ -30,7 +30,7 @@ function App() {
           const ApiUrl =
             BoolSearch === true
               ? `https://api.themoviedb.org/3/search/movie?api_key=6a1a25b1ea7b2da89a904a685bda1e58&query=${MovieName}&include_adult=false&language=en-US&page=1`
-              : `https://api.themoviedb.org/3/movie/popular?language=en-US&page=1`
+              : `https://api.themoviedb.org/3/movie/popular?api_key=6a1a25b1ea7b2da89a904a685bda1e58&language=en-US&page=1`
           const response = await fetch(ApiUrl, options)
           const MovieData = await response.json()
           console.log(MovieData.results)
